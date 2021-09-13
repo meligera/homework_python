@@ -11,8 +11,10 @@ def initials(name):
 def initials_more(names):
     return [initials(name) for name in names]
 
+
 # Импортирую функцию рандома, начинаю перетасовку элементов списка
 from random import shuffle
+
 shuffle(names)
 
 # Дублирую список простым умножением
