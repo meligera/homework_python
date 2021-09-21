@@ -31,7 +31,7 @@ f = Field(5, 2, 13)
 i = 0
 b = 0
 first_meet = 0
-while i < 100:
+while i < 44:
     f.step()
     i += 1
     if f.get_pos_hare() == f.get_pos_tort():
