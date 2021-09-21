@@ -32,5 +32,5 @@ def create_list_short(lenght, minimum, maximum):
 
 print(create_list_short(6, 1, 10000))
 
-#print(len(numbers_), lenghtMinMax(numbers_))
+#print(len(numbers_), lenghtMinMax(numgeneration_namebers_))
 # print(sort_(numbers_))

@@ -52,13 +52,13 @@ all = n + int(t1) + int(t2)
 print('The result is:', all)
 '''
 # Generation function
-def first_n(n):
-    '''Build and return a list'''
-    num, nums = 0, []
-    while num < n:
-        nums.append(num)
-        num += 1
-    return nums
+import random
 
+def generation_name(num, minimum, maximum):
+    i = 0
+    while i < num:
+        yield random.randrange(minimum, maximum)
+        i += 1
+list_ = [i for i in generation_name(30, 0, 40)]
 
-sum_of_first_n = sum(first_n(1000000))
+print(list_)
