@@ -27,12 +27,15 @@ class Field():
         return self.__pos_tort
 
 
-f = Field(5, 2, 11)
+f = Field(5, 2, 13)
 i = 0
+b = 0
 first_meet = 0
 while i < 100:
     f.step()
     i += 1
     if f.get_pos_hare() == f.get_pos_tort():
+        b += 1
         print('They met after:', i - first_meet)
         first_meet = i
+print('They collided :', b, 'times')
