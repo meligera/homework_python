@@ -28,7 +28,7 @@ def order(n):
 def order1(n):
     if n < 10:
         return [n]
-    return order1(n//10)+[n%10]
+    return order1(n // 10)+[n % 10]
 
 
 
@@ -36,4 +36,4 @@ def order1(n):
 #1) вывести 1 разряд
 #2) вызвать эту функцию со всем кроме 1 разряда
 
-print(order1(57822))
+print(order1(34765))

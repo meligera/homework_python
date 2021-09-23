@@ -1,6 +1,3 @@
-import random
-
-
 class Counter():
     def __init__(self):
         self.__counter_value = 0
