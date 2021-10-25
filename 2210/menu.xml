@@ -8,6 +8,6 @@
 		<item price="$5.00">hamburger</item>
 	</lunch>
 	<dinner hours="3-10">
-		<item price="$8.00">spaghetti</item>
+		<item price="$8.00">meatballs</item>
 	</dinner>
 </menu>
